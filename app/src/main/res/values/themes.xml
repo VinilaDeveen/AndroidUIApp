@@ -3,8 +3,8 @@
     <style name="Theme.HelloAndroidUI" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="colorPrimary">@color/design_default_color_primary</item> <!-- Or use a specific blue color -->
-        <item name="colorPrimaryDark">@color/design_default_color_primary</item> <!-- Status bar color -->
+        <item name="colorPrimary">#01B2BC</item> <!-- Or use a specific blue color -->
+        <item name="colorPrimaryDark">#01B2BC</item> <!-- Status bar color -->
 
         <!-- Text color for the Toolbar -->
         <item name="android:textColorPrimary">@android:color/white</item>

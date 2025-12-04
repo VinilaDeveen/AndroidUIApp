@@ -19,25 +19,29 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:background="#3F51B5"
+            android:background="#01B2BC"
+            android:paddingTop="30dp"
+            app:navigationIcon="@drawable/ic_launcher_foreground"
             app:title="HelloAndroidUI"
-            app:titleMarginTop="45dp"
+            app:titleMarginTop="15dp"
             app:titleTextColor="@color/white" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <!-- MAIN CONTENT AREA -->
+
     <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Welcome to Android\nDevelopment!"
+        android:layout_marginTop="80dp"
+        android:text="Welcome to Android Development!"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@id/clickMeButton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/appBarLayout"
         app:layout_constraintVertical_chainStyle="packed" />
@@ -47,15 +51,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:background="#FDFDFD"
-        android:backgroundTint="#DEDEDE"
+        android:backgroundTint="#01B2BC"
         android:paddingStart="32dp"
         android:paddingEnd="32dp"
         android:text="Click Me"
         android:textSize="16sp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/welcomeText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
