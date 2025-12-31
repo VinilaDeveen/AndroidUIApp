@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">HelloAndroidUI</string>
+    <string name="home_page_welcome_text">Welcome to Android Development!</string>
+    <string name="click_me_button_text">Click Me</string>
+    <!--    second activity-->
 </resources>
