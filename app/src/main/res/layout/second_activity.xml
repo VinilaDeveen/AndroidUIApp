@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textAlignment="viewStart">
@@ -12,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/black"
-        android:text="Android Development Roadmap"
+        android:text="@string/second_page_title"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
-        android:text="Tell Us Your Name"
+        android:text="@string/second_page_input_label"
         android:textStyle="bold"
         android:textSize="20sp"
         android:textColor="@color/black"
@@ -70,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:hint="Name" />
+            android:hint="@string/input_hint" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -81,7 +80,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#01B2BC"
-        android:text="Submit"
+        android:text="@string/button_text"
         android:textColor="#FCFFFFFF"
         app:icon="@drawable/ic_launcher_foreground"
         app:iconTint="@color/white"
@@ -124,7 +123,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="12dp"
                         android:textColor="@color/black"
-                        android:text="Fundamentals and Setup"
+                        android:text="@string/card1_view_title"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -133,42 +132,42 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="1. Learn Kotlin" />
+                        android:text="@string/card1_list_ele_1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="2. Set Up Your Environment" />
+                        android:text="@string/card1_list_ele_2" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="3. Master Version Control" />
+                        android:text="@string/card1_list_ele_3" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="4. Understand Android Basics" />
+                        android:text="@string/card1_list_ele_4" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="5. Learn UI Design with XML" />
+                        android:text="@string/card1_list_ele_5" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="6. Master Basic Layouts" />
+                        android:text="@string/card1_list_ele_6" />
 
                 </LinearLayout>
 
@@ -195,7 +194,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="12dp"
                         android:textColor="@color/black"
-                        android:text="Core Android Components  Architecture"
+                        android:text="@string/card2_view_title"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -204,28 +203,28 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="1. Grasp App Components" />
+                        android:text="@string/card2_list_ele_1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="2. Understand Lifecycles" />
+                        android:text="@string/card2_list_ele_2" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="3. Implement Navigation" />
+                        android:text="@string/card2_list_ele_3" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="4. Use Fragments" />
+                        android:text="@string/card2_list_ele_4" />
 
                 </LinearLayout>
 
@@ -252,7 +251,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="12dp"
                         android:textColor="@color/black"
-                        android:text="Data, Networking, and Advanced UI"
+                        android:text="@string/card3_view_title"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -261,35 +260,35 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="1. Learn Data Storage" />
+                        android:text="@string/card3_list_ele_1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="2. Implement Networking" />
+                        android:text="@string/card3_list_ele_2" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="3. Handle Asynchronism" />
+                        android:text="@string/card3_list_ele_3" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="4. Master RecyclerView" />
+                        android:text="@string/card3_list_ele_4" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="5. Integrate Firebase" />
+                        android:text="@string/card3_list_ele_5" />
 
                 </LinearLayout>
 
@@ -316,7 +315,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="12dp"
                         android:textColor="@color/black"
-                        android:text="Modern Practices and Deployment"
+                        android:text="@string/card4_view_title"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -325,35 +324,35 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="1. Adopt Architectural Patterns" />
+                        android:text="@string/card4_list_ele_1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="2. Implement Dependency Injection" />
+                        android:text="@string/card4_list_ele_2" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="3. Explore Jetpack Compose" />
+                        android:text="@string/card4_list_ele_3" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="4. Test Your App" />
+                        android:text="@string/card4_list_ele_4" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="4dp"
                         android:textColor="@color/black"
-                        android:text="5. Deploy to Google Play" />
+                        android:text="@string/card4_list_ele_5" />
 
                 </LinearLayout>
 

@@ -3,4 +3,36 @@
     <string name="home_page_welcome_text">Welcome to Android Development!</string>
     <string name="click_me_button_text">Click Me</string>
     <!--    second activity-->
+    <string name="second_page_input_label">Tell Us Your Name</string>
+    <string name="second_page_title">Android Development Roadmap</string>
+    <string name="input_hint">Name</string>
+    <string name="button_text">Submit</string>
+
+    <string name="card1_view_title">Fundamentals and Setup</string>
+        <string name="card1_list_ele_1">1. Learn Kotlin</string>
+        <string name="card1_list_ele_2">2. Set Up Your Environment</string>
+        <string name="card1_list_ele_3">3. Master Version Control</string>
+        <string name="card1_list_ele_4">4. Understand Android Basics</string>
+        <string name="card1_list_ele_5">5. Learn UI Design with XML</string>
+        <string name="card1_list_ele_6">6. Master Basic Layouts</string>
+
+    <string name="card2_view_title">Core Android Components  Architecture</string>
+        <string name="card2_list_ele_1">1. Grasp App Components</string>
+        <string name="card2_list_ele_2">2. Understand Lifecycles</string>
+        <string name="card2_list_ele_3">3. Implement Navigation</string>
+        <string name="card2_list_ele_4">4. Use Fragments</string>
+
+    <string name="card3_view_title">Data, Networking, and Advanced UI</string>
+        <string name="card3_list_ele_1">1. Learn Data Storage</string>
+        <string name="card3_list_ele_2">2. Implement Networking</string>
+        <string name="card3_list_ele_3">3. Handle Asynchronism</string>
+        <string name="card3_list_ele_4">4. Master RecyclerView</string>
+        <string name="card3_list_ele_5">5. Integrate Firebase</string>
+
+    <string name="card4_view_title">Modern Practices and Deployment</string>
+        <string name="card4_list_ele_1">1. Adopt Architectural Patterns</string>
+        <string name="card4_list_ele_2">2. Implement Dependency Injection</string>
+        <string name="card4_list_ele_3">3. Explore Jetpack Compose</string>
+        <string name="card4_list_ele_4">4. Test Your App</string>
+        <string name="card4_list_ele_5">5. Deploy to Google Play</string>
 </resources>
